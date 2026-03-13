@@ -11,8 +11,9 @@ Analisar o comportamento de vendas, faturamento e performance de produtos utiliz
 
 ## 📈 Insights Extraídos
 1. Faturamento Mensal (Identificação de sazonalidade).
-2. Top 10 Clientes por volume de compras.
-3. Categorias mais rentáveis (Tradução para Inglês inclusa).
+2. Agrupando por Cidade e calcule a Soma do Valor dos Itens.
+3. Quitidade de pedidos foram feitos em cada cidade.
+4. Média do Valor do Frete por Cidade do Cliente
 
 ## 🚀 Como executar
 As consultas estão disponíveis na pasta `/queries`. 
