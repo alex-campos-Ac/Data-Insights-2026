@@ -18,3 +18,5 @@ Analisar o comportamento de vendas, faturamento e performance de produtos utiliz
 ## 🚀 Como executar
 As consultas estão disponíveis na pasta `/queries`. 
 O dashboard pode ser visualizado no arquivo `.pbix`.
+
+![alt text](image.png)
