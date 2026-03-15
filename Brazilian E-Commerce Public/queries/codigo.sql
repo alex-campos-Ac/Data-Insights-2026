@@ -48,8 +48,9 @@ ORDER BY cidade_cliente ASC
 SELECT
 c.customer_city AS cidade,
 i.freight_value AS frete,
-o.order_status AS status_entrega,
+c.customer_state AS estado,
 AVG(freight_value) AS media_valor_frete
+
 
 FROM olist_order_items  i
 JOIN olist_orders o
@@ -59,3 +60,23 @@ ON c.customer_id = o.customer_id
 GROUP BY cidade
 HAVING AVG(freight_value) > 10
 ORDER BY media_valor_frete DESC
+
+
+
+--Quantidade de pedidos por categoria
+SELECT 
+o.order_id AS pedido,
+p.product_category_name AS categoria,
+count(o.order_id) AS pedidos_por_categoria
+
+FROM olist_orders o
+
+
+JOIN olist_order_items i
+ON o.order_id = i.order_id
+JOIN olist_products p
+ON p.product_id = i.product_id
+
+GROUP BY categoria
+ORDER BY pedidos_por_categoria DESC
+LIMIT 10
