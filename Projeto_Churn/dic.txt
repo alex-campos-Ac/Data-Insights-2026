@@ -1,0 +1,23 @@
+| Coluna           | Significado (resumo)                                                                     |
+| ---------------- | ---------------------------------------------------------------------------------------- |
+| customerID       | ID único de cada cliente na operadora.rpubs+1                                            |
+| gender           | Gênero do cliente (Male/Female).*rpubs+1                                                 |
+| SeniorCitizen    | Se é idoso: 0 = não, 1 = sim.rpubs+1                                                     |
+| Partner          | Cliente tem cônjuge/companheiro? (Yes/No).rpubs+1                                        |
+| Dependents       | Cliente tem dependentes (filhos, etc.)? (Yes/No).rpubs+1                                 |
+| tenure           | Tempo de permanência como cliente, em meses.rpubs+1                                      |
+| PhoneService     | Possui serviço de telefone? (Yes/No).kaggle+1                                            |
+| MultipleLines    | Possui múltiplas linhas telefônicas? (Yes/No/No phone service).kaggle+1                  |
+| InternetService  | Tipo de internet: DSL, Fiber optic, ou No.kaggle+1                                       |
+| OnlineSecurity   | Serviço extra de segurança online? (Yes/No/No internet service).kaggle+1                 |
+| OnlineBackup     | Serviço de backup online? (Yes/No/No internet service).kaggle+1                          |
+| DeviceProtection | Proteção para dispositivos (seguro/manutenção)? (Yes/No/No internet service).kaggle+1    |
+| TechSupport      | Suporte técnico adicional? (Yes/No/No internet service).kaggle+1                         |
+| StreamingTV      | Serviço de streaming de TV? (Yes/No/No internet service).kaggle+1                        |
+| StreamingMovies  | Serviço de streaming de filmes? (Yes/No/No internet service).kaggle+1                    |
+| Contract         | Tipo de contrato: Month-to-month, One year ou Two year.kaggle+1                          |
+| PaperlessBilling | Fatura digital (paperless)? (Yes/No).kaggle+1                                            |
+| PaymentMethod    | Forma de pagamento (Electronic check, Mailed check, Bank transfer, Credit card).kaggle+1 |
+| MonthlyCharges   | Valor cobrado por mês (em dinheiro).*kaggle+1                                            |
+| TotalCharges     | Total já cobrado do cliente desde que entrou (acumulado).*rpubs+1                        |
+| Churn            | Se o cliente cancelou o serviço: Yes = saiu, No = permaneceu.kaggle+1                    |
